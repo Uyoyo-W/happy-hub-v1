@@ -4,7 +4,7 @@ import logo from '../login-assets/Logo.svg'
 import { Link } from "react-router-dom";
 import '../login-styles/SignUp.scss'
 
-function SignUp() {
+function Register() {
   return (
     <div className='signup'>
         <div className='sign-up-container'>
@@ -22,4 +22,4 @@ function SignUp() {
   )
 }
 
-export default SignUp
+export default Register
