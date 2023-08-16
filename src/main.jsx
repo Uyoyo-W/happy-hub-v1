@@ -4,7 +4,7 @@ import { createRoot } from 'react-dom/client';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import LandingPage from './components/LandingPage/LandingPage';
 import LogIn from './components/login-pages/LogIn';
-import SignUp from './components/login-pages/Signup';
+import Register from './components/login-pages/Register';
 import Info from './components/login-pages/Info';
 import Contact from './components/login-pages/Contact';
 import AiChat from './components/chat-pages/Aichat';
@@ -21,7 +21,7 @@ function App() {
       <Routes>
         <Route path="/" element={< LandingPage />} />
         <Route path="sign-in" element={< LogIn />} />
-        <Route path="sign-up" element={< SignUp />} />
+        <Route path="sign-up" element={< Register />} />
         <Route path="info" element={< Info />} />
         <Route path="contact" element={< Contact />} />
         <Route path="aiChat" element={< AiChat />} />
