@@ -9,7 +9,7 @@ import '../chat-Styles/ai.scss';
 import SidePanel from './SidePanel';
 
 
-function AiChat() {
+function Aichat() {
   const [chatInput, setChatInput] = useState("");
   const [chatOutput, setChatOutput] = useState("");
 
@@ -59,4 +59,4 @@ function AiChat() {
   )
 }
 
-export default AiChat
+export default Aichat
