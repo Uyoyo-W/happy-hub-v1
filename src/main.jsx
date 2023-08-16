@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import LandingPage from './components/LandingPage/LandingPage';
-import SignIn from './components/login-pages/Signin';
+import LogIn from './components/login-pages/LogIn';
 import SignUp from './components/login-pages/Signup';
 import Info from './components/login-pages/Info';
 import Contact from './components/login-pages/Contact';
@@ -20,7 +20,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={< LandingPage />} />
-        <Route path="sign-in" element={< SignIn />} />
+        <Route path="sign-in" element={< LogIn />} />
         <Route path="sign-up" element={< SignUp />} />
         <Route path="info" element={< Info />} />
         <Route path="contact" element={< Contact />} />

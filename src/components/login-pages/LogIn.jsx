@@ -4,7 +4,7 @@ import '../login-styles/SignIn.scss'
 
 
 
-function SignIn() {
+function LogIn() {
 
   return (
     <div className='sign-in'>
@@ -24,4 +24,4 @@ function SignIn() {
   )
 }
 
-export default SignIn
+export default LogIn
