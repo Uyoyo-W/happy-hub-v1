@@ -1,0 +1,125 @@
+.community {
+  display: flex;
+  background-color: #1480EC;
+  padding-bottom: 20px;
+}
+.community .ai-nav {
+  position: relative;
+  width: 25%;
+}
+.community .ai-nav .logo-container {
+  grid-area: logo-container;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 87%;
+  margin: 0 auto;
+  gap: 40px;
+  padding-top: 2em;
+  margin-bottom: 70px;
+}
+.community .ai-nav .logo-container .logo {
+  width: 77px;
+}
+.community .ai-nav .links {
+  grid-area: links;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-content: space-between;
+  font-size: 1.7em;
+  margin-top: 2em;
+  padding-left: 40px;
+}
+.community .ai-nav .links .decor {
+  color: #fff;
+  text-decoration: none;
+  font-size: 22px;
+  display: flex;
+}
+.community .ai-nav .links .decor img {
+  padding-right: 13px;
+}
+.community .ai-nav .links .bud {
+  margin-bottom: 20px;
+}
+.community .ai-nav .links .bud p {
+  margin-bottom: 0px;
+}
+.community .ai-nav .utility {
+  margin-top: 110px;
+  grid-area: utility;
+  justify-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+}
+.community .ai-nav .utility .decor {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  margin-bottom: 10px;
+}
+.community .ai-nav .utility .decor p {
+  margin-bottom: 5px;
+  margin-left: 16px;
+  font-size: 17px;
+}
+.community .ai-nav .group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.community .container {
+  background-color: #fff;
+  width: 74%;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+}
+.community .container .community-area {
+  grid-area: community-area;
+  padding-top: 2rem;
+  background-color: #fff;
+  height: 100vh;
+  width: 100%;
+  border-radius: 20px;
+}
+.community .container .community-area .template-message {
+  background-color: #F4F4F4;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: none;
+  border-radius: 15px;
+  padding: 1em 1em 1em 1em;
+  margin: 10px 20px;
+}
+.community .container .community-area .template-message p {
+  color: #000;
+  width: 90%;
+}
+.community .container .community-area .template-message .like-flex {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+.community .container .community-area .post {
+  position: absolute;
+  bottom: 0;
+  width: 60%;
+  margin-left: 30px;
+  display: flex;
+}
+.community .container .community-area .post textarea {
+  background-color: transparent;
+  border: none;
+  resize: none;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 96%;
+  color: #000;
+}/*# sourceMappingURL=community.css.map */
