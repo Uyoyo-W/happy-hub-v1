@@ -7,7 +7,7 @@ import LogIn from './components/login-pages/LogIn';
 import Register from './components/login-pages/Register';
 import Info from './components/login-pages/Info';
 import Contact from './components/login-pages/Contact';
-import AiChat from './components/chat-pages/Aichat';
+import Aichat from './components/chat-pages/Aichat';
 import Exercises from './components/SidePanel/Exercises';
 import GetHelp from './components/SidePanel/GetHelp';
 import Community from './components/chat-pages/Community';
@@ -24,7 +24,7 @@ function App() {
         <Route path="sign-up" element={< Register />} />
         <Route path="info" element={< Info />} />
         <Route path="contact" element={< Contact />} />
-        <Route path="aiChat" element={< AiChat />} />
+        <Route path="aiChat" element={< Aichat />} />
         <Route path="exercises" element={< Exercises />} />
         <Route path="get-help" element={< GetHelp />}  />
         <Route path="community" element={< Community />}  />
