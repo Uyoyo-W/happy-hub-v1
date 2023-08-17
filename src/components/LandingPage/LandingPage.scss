@@ -361,21 +361,41 @@
                     }
                 }
                 .nav-menu{
-                    //display: none;
-                    margin-right: 40px;
                     display: flex;
                     flex-direction: column;
                     visibility: hidden;
                     position: absolute;
                     padding: 0;
                     padding-top: 20px;
-                    margin-top: 0;
                     top: 100px;
-                    width: 100%;
-                    justify-content: center;
-                    // background-color: $dark-purple;
+                    right: 40px;
                     text-align: center;
-                    background-color: red;
+                    margin: 0;
+                    padding-top: 0;
+                    .nav-item{
+                        background-color:$white;
+                        border-radius: 15px;
+                        color: $blue;
+                        width: 100%;
+                        margin: 0;
+                        padding: 12px 5px;
+                        margin-bottom: 10px;
+                        .nav-link{
+                            display: flex;
+                            text-align: center;
+                            justify-content: center;
+                           
+                        }
+                    }
+                    .nav-item:nth-child(1){
+                        margin-bottom: 10px;
+                    }
+                    .nav-item:last-child{
+                        //background-color: transparent;
+                        padding: 8px 2px;
+                        border-radius: 20px;
+                    }
+                    
                 }
 
                 .menu{
@@ -456,6 +476,27 @@
     }
 
     @include tablet{
+        .header{
+            nav{
+            @include padding-tb(10px, 10px);
+
+            }
+        }
+        .hero{
+            margin-top: 50px;
+            @include padding-lr(35px, 35px);
+            width: 91%;
+            .text{
+                width: 57%;
+            }
+            .AI{
+                width: 41%;
+                img{
+                    width: 100%;
+                    min-width: 250px;
+                }
+            }
+        }
         .pageBottom{
             .get{
             margin-bottom: 40px;
@@ -489,6 +530,44 @@
     }
 
     @include phone1{
+        .header{
+            nav{
+                @include padding-tb(10px, 10px);
+                .happyhub{
+                    margin-left: 30px;
+                }
+                .menu{
+                    padding-right: 35px;
+                }
+            }
+        }
+        .hero{
+            @include padding-lr(25px, 25px);
+            width: 100%;
+            background-size: cover;
+            width: fit-content;
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            .text{
+                width: 60%;
+                padding-top: 40px;
+                h1{
+                    font-size: 25px;
+                }
+                p{
+                    font-size: 15px;
+                }
+            }
+            .AI{
+                width: 38%;
+                margin-top: 120px;
+                margin-right: 0;
+                img{
+                    min-width: 100px;
+                }
+            }
+        }
         .allFeatures{
             .features{
              @include padding-lr(110px, 110px);
@@ -562,6 +641,36 @@
     }
 
     @include phone{
+        .header{
+            nav{
+                .happyhub{
+                    margin-left: 25px;
+                }
+                .nav-menu{
+                    right: 25px;
+                }
+                .menu{
+                    padding-right: 30px;
+                }
+            }
+        }
+        .hero{
+            @include padding-lr(22px, 22px);
+            
+            
+            .text{
+                width: 60%;
+                padding-top: 40px;
+                
+                p{
+                    font-size: 14px;
+                }
+            }
+            .AI{
+                width: 38%;
+                
+            }
+        }
         .allFeatures{
             .features{
                 @include padding-lr(20%, 20%);

@@ -324,19 +324,38 @@
     width: 60px;
   }
   .landingPage .header nav .nav-menu {
-    margin-right: 40px;
     display: flex;
     flex-direction: column;
     visibility: hidden;
     position: absolute;
     padding: 0;
     padding-top: 20px;
-    margin-top: 0;
     top: 100px;
-    width: 100%;
-    justify-content: center;
+    right: 40px;
     text-align: center;
-    background-color: red;
+    margin: 0;
+    padding-top: 0;
+  }
+  .landingPage .header nav .nav-menu .nav-item {
+    background-color: #fff;
+    border-radius: 15px;
+    color: #1480EC;
+    width: 100%;
+    margin: 0;
+    padding: 12px 5px;
+    margin-bottom: 10px;
+  }
+  .landingPage .header nav .nav-menu .nav-item .nav-link {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  .landingPage .header nav .nav-menu .nav-item:nth-child(1) {
+    margin-bottom: 10px;
+  }
+  .landingPage .header nav .nav-menu .nav-item:last-child {
+    padding: 8px 2px;
+    border-radius: 20px;
   }
   .landingPage .header nav .menu {
     display: flex;
@@ -403,6 +422,26 @@
   }
 }
 @media (max-width: 768px) {
+  .landingPage .header nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .landingPage .hero {
+    margin-top: 50px;
+    padding-left: 35px;
+    padding-right: 35px;
+    width: 91%;
+  }
+  .landingPage .hero .text {
+    width: 57%;
+  }
+  .landingPage .hero .AI {
+    width: 41%;
+  }
+  .landingPage .hero .AI img {
+    width: 100%;
+    min-width: 250px;
+  }
   .landingPage .pageBottom .get {
     margin-bottom: 40px;
   }
@@ -425,6 +464,45 @@
   }
 }
 @media (max-width: 590px) {
+  .landingPage .header nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .landingPage .header nav .happyhub {
+    margin-left: 30px;
+  }
+  .landingPage .header nav .menu {
+    padding-right: 35px;
+  }
+  .landingPage .hero {
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
+    background-size: cover;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .landingPage .hero .text {
+    width: 60%;
+    padding-top: 40px;
+  }
+  .landingPage .hero .text h1 {
+    font-size: 25px;
+  }
+  .landingPage .hero .text p {
+    font-size: 15px;
+  }
+  .landingPage .hero .AI {
+    width: 38%;
+    margin-top: 120px;
+    margin-right: 0;
+  }
+  .landingPage .hero .AI img {
+    min-width: 100px;
+  }
   .landingPage .allFeatures .features {
     padding-left: 110px;
     padding-right: 110px;
@@ -486,6 +564,29 @@
   }
 }
 @media (max-width: 425px) {
+  .landingPage .header nav .happyhub {
+    margin-left: 25px;
+  }
+  .landingPage .header nav .nav-menu {
+    right: 25px;
+  }
+  .landingPage .header nav .menu {
+    padding-right: 30px;
+  }
+  .landingPage .hero {
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+  .landingPage .hero .text {
+    width: 60%;
+    padding-top: 40px;
+  }
+  .landingPage .hero .text p {
+    font-size: 14px;
+  }
+  .landingPage .hero .AI {
+    width: 38%;
+  }
   .landingPage .allFeatures .features {
     padding-left: 20%;
     padding-right: 20%;
