@@ -22,8 +22,8 @@ function Header() {
               <Link to='/' className='image2' ><img src={happyhub} alt='logo'></img></Link>
             </div>
             <ul className='nav-menu' style={ hamburgerOpen ? {visibility: 'visible'}  : null }>
-              <li className='nav-item'><Link to='' className='nav-link'>Meditation</Link></li>
-              <li className='nav-item'><Link to='' className='nav-link'>Community</Link></li>
+              <li className='nav-item'><Link to='/exercises' className='nav-link'>Meditation</Link></li>
+              <li className='nav-item'><Link to='/community' className='nav-link'>Community</Link></li>
               <li className='nav-item'><Link to='' className='nav-link'>About Us</Link></li>
               <li className='nav-item'><Link to='/sign-in' className='nav-link'><button className='button'>Sign Up</button></Link></li>
             </ul>
